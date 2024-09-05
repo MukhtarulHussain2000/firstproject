@@ -9,14 +9,16 @@ list_of_files=[
     "src/components/__init__.py",
     "src/components/data_ingestion.py",
     "src/components/data_transformation.py",
-    "src/components/data_trainer.py",
-    "src/components/data_evaluation.py",
+    "src/components/model_trainer.py",
+    "src/components/model_evaluation.py",
     "src/pipeline/__init__.py",
     "src/pipeline/training_pipeline.py",
     "src/pipeline/prediction_pipeline.py",
     "src/utils/__init__.py",
     "src/utils/utils.py",
-    "tests/unit/__init__.py"
+    "src/logger/logging.py",
+    "src/exception/exception.py",
+    "tests/unit/__init__.py",
     "tests/integration/__init__.py",
     "init_setup.sh",
     "requirements.txt",
@@ -26,7 +28,6 @@ list_of_files=[
     "pyproject.toml",
     "tox.ini",
     "experiment/experiments.ipynb",
-    "src/logger/logging.py"
 
 ]
 
